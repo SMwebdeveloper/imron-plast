@@ -1,9 +1,9 @@
 <template>
-    <div class="bg-white shadow-md py-2">
+    <div class="bg-white shadow-md py-2 mb-5">
        <div class="container mx-auto md:px-0 px-2">
         <div class="flex w-full items-center justify-between flex-col lg:flex-row">
             <div class="flex items-center justify-between lg:w-auto md:w-full sm:w-full w-full">
-                <img src="@/assets/site-logo/site-logo.svg" alt="site-logo" class="w-[130px] h-[50px] object-cover ml-[-15px] lg:ml-[-20px]">
+                <img src="@/assets/site-logo/site-logo.svg" alt="site-logo" class="w-[120px] lg:w-[150px] h-[50px] object-cover ml-[-15px]">
                 <div class="lg:hidden block">
                    <button class="text-3xl cursor-pointer" @click="toggleBtn">
                       <ion-icon name="menu-outline" v-if="!menu"></ion-icon>
