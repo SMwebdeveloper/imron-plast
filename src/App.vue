@@ -1,7 +1,6 @@
 <template>
   <div class="bg-gray-50 h-screen">
     <Navbar/>
-    <h2 class="mb-2 text-xl text-[red]">Vue world</h2>
   </div>
 </template>
 
