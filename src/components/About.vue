@@ -1,5 +1,5 @@
 <template lang="">
-    <div>
+    <div id='#about'>
       <div class="container mx-auto md:px-0 px-2">
         <div class='bg-[rgba(0,0,0,0.1)] w-full h-auto shadow-xl rounded-xl flex flex-col   lg:flex-row items-center  justify-between py-4 px-6 lg:py-8 lg:pr-10 lg:pl-20'>
             <div class="text-center lg:text-left mb-2 md:mb-3 lg:mb-0">
