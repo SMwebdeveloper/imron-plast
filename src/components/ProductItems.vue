@@ -1,7 +1,7 @@
 <template lang="">
-  <div class="text-center bg-[white] flex flex-col mx-auto items-center shadow-md rounded-md w-[180px] h-[220px] md:w-[250px] md:h-[260px]  lg:h-[300px]">
-    <img :src="getPic(product.img)" :alt="product.title" class="max-w-[150px] h-[70%] object-contain mb-3">
-    <h5 class="text-[12px] md:text-[14px] lg:text-[16px] max-w-[250px]">{{product.title}}</h5>
+  <div class="text-center bg-[white] flex flex-col mx-auto items-center shadow-md rounded-md w-[150px] h-[180px] md:w-[250px] md:h-[260px] lg:w-[300px] lg:h-[300px] pb-3 px-2">
+    <img :src="getPic(product.img)" :alt="product.title" class="w-[100px] md:w-[220px] h-[70%] object-contain mb-5">
+    <h5 class="text-[10px] md:text-[14px] text-[#318888] lg:text-[16px] max-w-[140px] md:max-w-[200px]">{{product.title}}</h5>
   </div>
 </template>
 <script>
