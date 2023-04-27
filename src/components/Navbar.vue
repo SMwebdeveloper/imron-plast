@@ -29,7 +29,7 @@ export default {
         navigation: [
             {
                 title: 'О нас',
-                href: '#'
+                href: '#about'
             },
             {
                 title: 'Каталог',
