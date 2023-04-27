@@ -33,7 +33,7 @@ export default {
             },
             {
                 title: 'Каталог',
-                href: '#'
+                href: '#products'
             },
             {
                 title: 'Договор',
