@@ -1,19 +1,19 @@
 <template>
-    <div class="bg-white shadow-md py-2 mb-5">
+    <div class="bg-white shadow-md py-2 mb-5 fixed top-0 left-0 w-screen z-10">
        <div class="container mx-auto md:px-0 px-3">
         <div class="flex w-full items-center justify-between flex-col lg:flex-row">
             <div class="flex items-center justify-between lg:w-auto md:w-full sm:w-full w-full">
                 <img src="@/assets/site-logo/site-logo.svg" alt="site-logo" class="w-[120px] lg:w-[150px] h-[50px] object-cover ml-[-15px]">
                 <div class="lg:hidden block">
-                   <button class="text-3xl cursor-pointer" @click="toggleBtn">
-                      <ion-icon name="menu-outline" v-if="!menu"></ion-icon>
-                      <ion-icon name="close-outline" v-else></ion-icon>
+                   <button class="text-3xl cursor-pointer mr-3" @click="toggleBtn">
+                    <i class="fa-solid fa-bars" v-if="!menu"></i>
+                    <i class="fa-solid fa-xmark" v-else></i>
                    </button>
                 </div>
             </div>
             
-            <div  :class="`${menu ? 'block pb-3 w-full' : 'hidden'}`">
-                <ul class="flex flex-col items-start lg:flex-row lg:items-center">
+            <div class="lg:flex" :class="`${menu ? 'block pb-3 w-full' : 'hidden'}`">
+                <ul class="flex flex-col items-start lg:flex-row lg:items-center mr-0 lg:mr-5">
                     <li class=" text-[16px] inline-block font-medium text-[#072430] mr-7 last:mr-0 hover:text-[#999696] duration-75 capitalize" v-for="item in navigation" :key="item.title">
                       <a :href="item.href">{{ item.title }}</a>
                     </li>

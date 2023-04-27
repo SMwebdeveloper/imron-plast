@@ -1,5 +1,5 @@
 <template lang="">
-    <div id="products">
+    <div id="products" class="mb-5 lg:mb-16">
       <div class="container mx-auto md:px-0 px-3">
         <div class="text-center">
             <h2 class="text-[20px] md:text-[28px] lg:text-[36px] text-[#4f83a7] font-semibold mb-3">Каталог</h2>
