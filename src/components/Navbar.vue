@@ -11,12 +11,15 @@
                    </button>
                 </div>
             </div>
-
-            <ul class="lg:flex" :class="`${menu ? 'block pb-3 w-full' : 'hidden'}`">
-                <li class=" text-[16px] font-medium text-[#072430] mr-7 last:mr-0 hover:text-[#999696] duration-75 capitalize" v-for="item in navigation" :key="item.title">
-                  <a :href="item.href">{{ item.title }}</a>
-                </li>
-            </ul>
+            
+            <div  :class="`${menu ? 'block pb-3 w-full' : 'hidden'}`">
+                <ul class="flex flex-col items-start lg:flex-row lg:items-center">
+                    <li class=" text-[16px] inline-block font-medium text-[#072430] mr-7 last:mr-0 hover:text-[#999696] duration-75 capitalize" v-for="item in navigation" :key="item.title">
+                      <a :href="item.href">{{ item.title }}</a>
+                    </li>
+                </ul>
+                <h6 class="p-2 inline-block bg-blue-500 rounded-md text-[14px]md:text-[16px] lg:text-[18px] font-medium text-gray-800">+998-90-390-64-75</h6>
+            </div>
         </div>
        </div>
     </div>
