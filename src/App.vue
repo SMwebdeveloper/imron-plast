@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-50 h-full pt-[100px]">
+  <div class="bg-gray-50 h-full pt-[100px] overflow-x-hidden">
     <Navbar/>
     <About/>
     <Products/>
