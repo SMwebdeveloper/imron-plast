@@ -36,16 +36,8 @@ export default {
                 href: '#products'
             },
             {
-                title: 'Договор',
-                href: '#'
-            },
-            {
-                title: 'Партнеры',
-                href: '#'
-            },
-            {
                 title: 'адрес',
-                href: '#'
+                href: '#location'
             }
         ],
         menu: false
