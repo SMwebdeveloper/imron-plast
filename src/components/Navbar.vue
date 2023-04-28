@@ -1,6 +1,6 @@
 <template>
     <div class="bg-white shadow-md py-2 mb-5 fixed top-0 left-0 w-screen z-10">
-       <div class="container mx-auto md:px-0 px-3 pr-6">
+       <div class="container mx-auto md:px-0 px-3">
         <div class="flex w-full items-center justify-between flex-col lg:flex-row">
             <div class="flex items-center justify-between lg:w-auto md:w-full sm:w-full w-full">
                 <img src="@/assets/site-logo/site-logo.svg" alt="site-logo" class="w-[120px] lg:w-[150px] h-[50px] object-cover ml-[-15px]">
