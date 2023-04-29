@@ -36,6 +36,10 @@ export default {
                 href: '#products'
             },
             {
+                title: "Партнеры",
+                href: '#partners'
+            },
+            {
                 title: 'Доставка',
                 href: '#delivery'
             },
