@@ -38,10 +38,6 @@ export default {
           img: "bag-logo/bag-logo-3",
         },
         {
-          id: "3",
-          img: "bag-logo/bag-logo-4",
-        },
-        {
           id: "4",
           img: "bag-logo/bag-logo-5",
         },
@@ -54,8 +50,48 @@ export default {
           img: "bag-logo/bag-logo-7",
         },
         {
+          id: "3",
+          img: "brand/havas-png",
+        },
+        {
+          id: "9",
+          img: "brand/asia-png"
+        },
+        {
+          id: "10",
+          img: "brand/istiqlol-png"
+        },
+        {
+          id: "125",
+          img: "brand/asmo-png"
+        },
+        {
+          id: "13",
+          img: "brand/davr-png"
+        },
+        {
+          id: "11",
+          img: "brand/sarbon-png"
+        },
+        {
+          id: "12",
+          img: "brand/gilam-png"
+        },
+        {
+          id: "14",
+          img: "brand/rash-milk-png"
+        },
+        {
           id: "7",
-          img: "bag-logo/bag-logo-9",
+          img: "brand/suv-png"
+        },
+        {
+          id: "18",
+          img: "brand/un-png",
+        },
+        {
+          id: "8",
+          img: "brand/dinar-png"
         },
       ],
     };

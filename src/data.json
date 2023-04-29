@@ -55,6 +55,22 @@
         {
             "title": "Вакуумные пакеты",
             "img": "vakum/vakum-1"
+        },
+        {
+            "title": "Кабельные мешки",
+            "img": "brand/binasa-png"
+        },
+        {
+            "title": "Рулон для жалюзи и ковров",
+            "img": "brand/gilam-png"
+        },
+        {
+            "title": "Мешки для воды",
+            "img": "brand/suv-png-2"
+        },
+        {
+            "title": "Рулон для химчистки",
+            "img": "brand/ximchistka-png"
         }
     ]
 
