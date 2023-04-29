@@ -5,9 +5,9 @@
             <div class="flex items-center justify-between lg:w-auto md:w-full sm:w-full w-full">
                 <img src="@/assets/site-logo/site-logo.svg" alt="site-logo" class="w-[120px] lg:w-[150px] h-[50px] object-cover ml-[-15px]">
                 <div class="lg:hidden block">
-                   <button class="text-3xl cursor-pointer" @click="toggleBtn">
-                      <ion-icon name="menu-outline" v-if="!menu"></ion-icon>
-                      <ion-icon name="close-outline" v-else></ion-icon>
+                   <button class="text-3xl cursor-pointer pr-3" @click="toggleBtn">
+                    <i class="fa-solid fa-bars" v-if="!menu"></i>
+                    <i class="fa-solid fa-times" v-else></i>
                    </button>
                 </div>
             </div>
