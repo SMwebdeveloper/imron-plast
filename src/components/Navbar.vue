@@ -14,7 +14,7 @@
 
             <ul class="lg:flex" :class="`${menu ? 'block pb-3 w-full' : 'hidden'}`">
                 <li class=" text-[16px] font-medium text-[#072430] mr-7 last:mr-0 hover:text-[#999696] duration-75 capitalize" v-for="item in navigation" :key="item.title">
-                  <a :href="item.href">{{ item.title }}</a>
+                  <a @click="menu = false" :href="item.href">{{ item.title }}</a>
                 </li>
             </ul>
         </div>
@@ -34,6 +34,10 @@ export default {
             {
                 title: 'Каталог',
                 href: '#products'
+            },
+            {
+                title: 'Доставка',
+                href: '#delivery'
             },
             {
                 title: 'адрес',

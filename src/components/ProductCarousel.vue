@@ -6,7 +6,7 @@
     </div>
     <div class='max-w-[550px]'>
       <carousel
-        :perPage="1"
+        :perPage="2"
         paginationEnable="true"
         paginationColor="#b3b3b3"
         paginationActiveColor="#494ce8"
