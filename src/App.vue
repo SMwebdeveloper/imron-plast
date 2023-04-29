@@ -3,6 +3,7 @@
     <Navbar/>
     <About/>
     <Products/>
+    <Partners/>
     <Delivery/>
     <Location/>
     <Footer/>
@@ -13,8 +14,9 @@
 import Navbar from './components/Navbar';
 import About from './components/About.vue';
 import Products from './components/Products.vue';
-import Location from './components/Location.vue';
+import Partners from './components/Partners.vue';
 import Delivery from './components/Delivery.vue';
+import Location from './components/Location.vue';
 import Footer from './components/Footer.vue';
 
 export default {
@@ -23,6 +25,7 @@ export default {
     Navbar,
     About,
     Products,
+    Partners,
     Delivery,
     Location,
     Footer
