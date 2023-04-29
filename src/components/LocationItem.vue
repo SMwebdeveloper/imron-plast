@@ -6,7 +6,7 @@
       <h5 class="m-0">Наш адрес:</h5>
       <h3
         class="font-bold text-[#880f0f] text-[20px] md:text-[22px] lg:text-[24px] m-0"
-        >г. Фаргона улица Авиаторов 2
+        >г. Фаргона улица Авиасозлар 2/2
       </h3>
     </div>
     <div class="mb-3 md:mb-5">
@@ -14,7 +14,6 @@
         <ul class="text-center lg:text-left">
             <li class="text-[12px] md:text-[14px] lg:text-[16px] font-semibold text-[#214f52]">+998-97-555-79-33</li>
             <li class="text-[12px] md:text-[14px] lg:text-[16px] font-semibold text-[#214f52]">+998-97-271-46-48</li>
-            <li class="text-[12px] md:text-[14px] lg:text-[16px] font-semibold text-[#214f52]">+998-99-788-20-84</li>
         </ul>
     </div>
     <div>
@@ -33,9 +32,14 @@
             class="fa-brands fa-telegram text-[26px] text-blue-400 duration-150 hover:text-gray-600 mt-1"
           ></i>
         </a>
-        <a href="https://www.instagram.com/salafan_paketlar/" target="_blank">
+        <a href="https://www.instagram.com/salafan_paketlar/" target="_blank" class="mr-5">
           <i
             class="fa-brands fa-instagram text-[25px] text-red-500 duration-150 hover:text-gray-600"
+          ></i>
+        </a>
+        <a href="https://wa.me/qr/YER6T32WTV2EH1" target="_blank">
+          <i
+            class="fa-brands fa-whatsapp text-[25px] text-green-400 duration-150 hover:text-gray-600"
           ></i>
         </a>
       </div>
