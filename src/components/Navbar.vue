@@ -3,7 +3,7 @@
        <div class="container mx-auto md:px-0 px-3">
         <div class="flex w-full items-center justify-between flex-col lg:flex-row">
             <div class="flex items-center justify-between lg:w-auto md:w-full sm:w-full w-full">
-                <img src="@/assets/site-logo/site-logo.svg" alt="site-logo" class="w-[120px] lg:w-[150px] h-[50px] object-cover ml-[-15px]">
+                <img src="@/assets/images/site-logo.svg" alt="site-logo" class="w-[120px] lg:w-[150px] h-[50px] object-cover ml-[-15px]">
                 <div class="lg:hidden block">
                    <button class="text-3xl cursor-pointer pr-3" @click="toggleBtn">
                     <i class="fa-solid fa-bars" v-if="!menu"></i>

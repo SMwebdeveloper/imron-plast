@@ -15,7 +15,7 @@ export default {
   },
   methods: {
     getPic(img) {
-        return require(`@/assets/${img}.png`);
+        return require(`@/assets/images/${img}.png`);
     }
   }
 };

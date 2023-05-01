@@ -7,7 +7,7 @@
                 <p class="text-[12px] md:text-[14px] text-gray-700 font-medium max-w-[650px] text-center lg:text-justify ">Компания IMRON Plast начала свою деятельность во второй половине 2008 года. На протяжении многих лет он предоставляет большому количеству клиентов качественную продукцию, специализированный сервис, качественную и доступную продукцию. По этим причинам мы много лет тестировали и совершенствовали свою продукцию и расширялись в больших масштабах. Наш слоган: <br>
             <span class="text-[14px] md:text-[16px] lg:text-[20px] font-[Jost] font-bold">Выгода от честности всегда превышает выгоду.</span></p>
             </div>
-            <img src="@/assets/site-logo/site-logo-6.png" alt="about image" class="w-[200px] h-[120px] md:w-[350px] md:h-[200px] lg:w-[500] lg:h-[300px] object-cover">
+            <img src="@/assets/images/site-logo-6.png" alt="about image" class="w-[200px] h-[120px] md:w-[350px] md:h-[200px] lg:w-[500] lg:h-[300px] object-cover">
         </div>
       </div>
     </div>

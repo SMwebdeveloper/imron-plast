@@ -39,30 +39,30 @@ export default {
       partners: [
         {
           id: "fasdffs",
-          img: "brand/rash-milk-logo.png",
+          img: "rash-milk-logo.png",
         },
         {
           id: "fadad",
-          img: "brand/evaks.png",
+          img: "evaks.png",
         },
         {
           id: "fkkg",
-          img: "brand/havas.svg",
+          img: "havas.svg",
         },
         {
           id: "asdfa",
-          img: "brand/asia-uz.png",
+          img: "asia-uz.png",
         },
         {
           id: "fasdf",
-          img: "brand/istiqlol-g.png",
+          img: "istiqlol-g.png",
         }
       ],
     };
   },
   methods: {
     getPic(img) {
-      return require(`@/assets/${img}`);
+      return require(`@/assets/images/${img}`);
     },
   },
 };

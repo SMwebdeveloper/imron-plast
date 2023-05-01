@@ -12,7 +12,7 @@
             продукция, качественное и быстрое обслуживание!!!
           </p>
         </div>
-        <img class="w-[400px] md:w-[500px] h-[200px] lg:h-[300px] object-cover" src="@/assets/site-logo/imron-plast-dostavka.png" alt="car image">
+        <img class="w-[400px] md:w-[500px] h-[200px] lg:h-[300px] object-cover" src="@/assets/images/imron-plast-dostavka.png" alt="car image">
       </div>
     </div>
   </div>

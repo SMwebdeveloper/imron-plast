@@ -31,74 +31,74 @@ export default {
       slide: [
         {
           id: "1",
-          img: "bag-logo/bag-logo-1",
+          img: "bag-logo-1",
         },
         {
           id: "2",
-          img: "bag-logo/bag-logo-3",
+          img: "bag-logo-3",
         },
         {
           id: "4",
-          img: "bag-logo/bag-logo-5",
+          img: "bag-logo-5",
         },
         {
           id: "5",
-          img: "bag-logo/bag-logo-6",
+          img: "bag-logo-6",
         },
         {
           id: "6",
-          img: "bag-logo/bag-logo-7",
+          img: "bag-logo-7",
         },
         {
           id: "3",
-          img: "brand/havas-png",
+          img: "havas-png",
         },
         {
           id: "9",
-          img: "brand/asia-png"
+          img: "asia-png"
         },
         {
           id: "10",
-          img: "brand/istiqlol-png"
+          img: "istiqlol-png"
         },
         {
           id: "125",
-          img: "brand/asmo-png"
+          img: "asmo-png"
         },
         {
           id: "13",
-          img: "brand/davr-png"
+          img: "davr-png"
         },
         {
           id: "11",
-          img: "brand/sarbon-png"
+          img: "sarbon-png"
         },
         {
           id: "12",
-          img: "brand/gilam-png"
+          img: "gilam-png"
         },
         {
           id: "14",
-          img: "brand/rash-milk-png"
+          img: "rash-milk-png"
         },
         {
           id: "7",
-          img: "brand/suv-png"
+          img: "suv-png"
         },
         {
           id: "18",
-          img: "brand/un-png",
+          img: "un-png",
         },
         {
           id: "8",
-          img: "brand/dinar-png"
+          img: "dinar-png"
         },
       ],
     };
   },
   methods: {
     getPic(img) {
-        return require(`@/assets/${img}.png`);
+        return require(`@/assets/images/${img}.png`);
     }
   }
 };

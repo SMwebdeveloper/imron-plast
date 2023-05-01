@@ -2,75 +2,75 @@
     "products": [
         {
             "title":"Пакет рейтера",
-            "img":"bag-logo/bag-logo-7"
+            "img":"bag-logo-7"
         },
         {
             "title":"Цветные пакеты в стиле майка",
-            "img":"bag-logo/bag-logo-11"
+            "img":"bag-logo-11"
         },
         {
             "title": "Строительные упаковочные пакеты",
-            "img": "build/build-2"
+            "img": "build-2"
         },
         {
             "title": "Упаковочные пакеты для хлопка и марли",
-            "img": "cutton/cutton-1"
+            "img": "cutton-1"
         },
         {
             "title": "Пакеты для бройлерных и птицефабрик",
-            "img": "package/package-1"
+            "img": "package-1"
         },
         {
             "title": "Панк пачки денег",
-            "img": "pank/pank-2"
+            "img": "pank-2"
         },
         {
             "title": "Пакеты для парашока",
-            "img": "powder/powder-1"
+            "img": "powder-1"
         },
         {
             "title": "Цветные и атривные рулонные пакеты",
-            "img": "rulon/rulon-5"
+            "img": "rulon-5"
         },
         {
             "title": "Пакеты для солей",
-            "img": "salt/salt-1"
+            "img": "salt-1"
         },
         {
             "title": "Мешки салафаны для силоса и других видов продукции",
-            "img": "silyos/silyos"
+            "img": "silyos"
         },
         {
             "title": "Термоусадочные рулонные пакеты",
-            "img": "term/term-rulon-2"
+            "img": "term-rulon-2"
         },
         {
             "title": "Различные пакеты для текстиля",
-            "img": "textil/textil"
+            "img": "textil"
         },
         {
             "title": "Специальные мешки для мусора",
-            "img": "trash/trash-2"
+            "img": "trash-2"
         },
         {
             "title": "Вакуумные пакеты",
-            "img": "vakum/vakum-1"
+            "img": "vakum-1"
         },
         {
             "title": "Кабельные мешки",
-            "img": "brand/binasa-png"
+            "img": "binasa-png"
         },
         {
             "title": "Рулон для жалюзи и ковров",
-            "img": "brand/gilam-png"
+            "img": "gilam-png"
         },
         {
             "title": "Мешки для воды",
-            "img": "brand/suv-png-2"
+            "img": "suv-png-2"
         },
         {
             "title": "Рулон для химчистки",
-            "img": "brand/ximchistka-png"
+            "img": "ximchistka-png"
         }
     ]
 
