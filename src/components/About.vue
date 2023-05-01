@@ -1,7 +1,7 @@
 <template lang="">
     <div id='about'>
       <div class="container mx-auto md:px-0 px-3">
-        <div class='bg-[rgba(0,0,0,0.1)] w-full h-auto shadow-xl rounded-xl flex flex-col   lg:flex-row items-center  justify-between py-4 px-6 lg:py-8 lg:pr-10 lg:pl-20'>
+        <div class='bg-[rgba(0,0,0,0.1)] w-full h-auto shadow-lg rounded-xl flex flex-col   lg:flex-row items-center  justify-between py-4 px-6 lg:py-8 lg:pr-10 lg:pl-20'>
             <div class="text-center lg:text-left mb-2 md:mb-3 lg:mb-0">
                 <h4 class="text-[20px] md:text-[26px] lg:text-[36px] font-[Jost]  mb-1 lg:mb-3 text-[#0a6272]">IMRON PLAST</h4>
                 <p class="text-[12px] md:text-[14px] text-gray-700 font-medium max-w-[650px] text-center lg:text-justify ">Компания IMRON Plast начала свою деятельность во второй половине 2008 года. На протяжении многих лет он предоставляет большому количеству клиентов качественную продукцию, специализированный сервис, качественную и доступную продукцию. По этим причинам мы много лет тестировали и совершенствовали свою продукцию и расширялись в больших масштабах. Наш слоган: <br>
