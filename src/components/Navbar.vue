@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white shadow-md py-2 mb-5 fixed top-0 left-0 w-screen z-10">
+    <div class=" py-2 mb-5 fixed top-0 left-0 w-screen z-10" :class="`${sidebarScroll ? 'bg-red-800 shadow-md' : ''}`">
        <div class="container mx-auto md:px-0 px-3">
         <div class="flex w-full items-center justify-between flex-col lg:flex-row">
             <div class="flex items-center justify-between lg:w-auto md:w-full sm:w-full w-full">
@@ -48,13 +48,26 @@ export default {
                 href: '#location'
             }
         ],
-        menu: false
+        menu: false,
+        sidebarScroll: false
     }
   },
   methods: {
     toggleBtn () {
         return this.menu = !this.menu
+    },
+    navbarScroll () {
+      if (window.scrollY > 500) {
+        console.log(this.sidebarScroll)
+        return this.sidebarScroll = true
+      } else {
+        console.log(this.sidebarScroll)
+        return this.sidebarScroll = false
+      }
     }
+  },
+  mounted () {
+    window.addEventListener('scroll', this.navbarScroll)
   }
 }
 </script>
