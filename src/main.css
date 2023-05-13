@@ -7,3 +7,16 @@
 }
 
 
+.navbar{
+    transition: 0.4s right ease-in-out;
+    transition-delay: 0.2s;
+    animation: nav 0.4s;
+}
+
+@keyframes nav {
+    0% {
+        right: -200px;
+    } 100% {
+        right: 0;
+    }
+}
