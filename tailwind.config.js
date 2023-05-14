@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'imron-img': "url('assets/images/imron-img.jpg')"
+      }
     },
   },
   plugins: [],
