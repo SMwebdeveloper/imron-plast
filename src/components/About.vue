@@ -3,7 +3,7 @@
       <div class="container mx-auto">
         <div class="flex flex-col items-center justify-center w-screen h-[50vh] md:h-[80vh] lg:h-[100vh]">
           <h2 class="text-[32px] md:text-[70px] lg:text-[100px] mb-5 font-extrabold uppercase gradient-text shadow-md">Imron Plast</h2>
-          <h5 class="text-[28px] text-white">Выгода от честности всегда превышает выгоду.</h5>
+          <h5 class="text-[28px] text-white uppercase text-center w-[250px]">Выгода от честности всегда превышает выгоду.</h5>
           <button>More</button>
         </div>
       </div>
