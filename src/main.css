@@ -22,10 +22,7 @@
 }
 
 .bg-image {
-    background: linear-gradient(
-      rgba(217, 221, 231, 0.5),
-      rgba(0,0,0,0.5)
-    ),
+    background:radial-gradient(rgba(255,255,255,0.2), rgba(0,0,0,0.1)),
     url("./assets/images/bg-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,19 +34,19 @@
     text-align: center;
     background: linear-gradient(
     135deg,
-    rgba(255,255,255,0.7),
     #fff,
-    rgba(255,255,255,0.1),
-    #000,
-    rgba(255,255,255,0.5),
-     #fff,
-    rgba(255,255,255,0.7)
+    #fff,
+    rgba(255,255,255, 0.3),
+    #fff,
+    #fff
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 300% 300%;
+  position: relative;
+  background-attachment: fixed;
   animation: gradient 8s ease-in-out infinite;
-  backdrop-filter:blur(6px);
+  backdrop-filter:blur(12px);
   padding:0 10px;
 }
 
