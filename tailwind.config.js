@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'imron-img': "url('assets/images/imron-img.jpg')"
+        'imron-img': "url('assets/images/bg-plastic.jpg')"
       }
     },
   },

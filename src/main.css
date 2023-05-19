@@ -21,34 +21,13 @@
   }
 }
 
-.bg-image {
-    background:radial-gradient(rgba(255,255,255,0.2), rgba(0,0,0,0.1)),
-    url("./assets/images/bg-image.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.linear{
+    background: linear-gradient(rgba(94, 92, 92, 0.2), rgba(211, 205, 205, 0.3)), url('../src/assets/images/bg-plastic.jpg');
+    /* background-position:center; */
+    /* background-size:cover; */
+    /* background-attachment:fixed; */
 }
 
-.gradient-text {
-    letter-spacing: 1px;
-    text-align: center;
-    background: linear-gradient(
-    135deg,
-    #fff,
-    #fff,
-    rgba(255,255,255, 0.3),
-    #fff,
-    #fff
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 300% 300%;
-  position: relative;
-  background-attachment: fixed;
-  animation: gradient 8s ease-in-out infinite;
-  backdrop-filter:blur(12px);
-  padding:0 10px;
-}
 
 @keyframes gradient {
   0% {
@@ -60,4 +39,18 @@
   100% {
     background-position:0% 50%;
   }
+}
+
+.type-anim{
+    white-space: nowrap;
+    border-right: 5px solid;
+    overflow:hidden ;
+    animation: typing 8s steps(44), cursor .5s infinite alternate;
+}
+
+@keyframes cursor {
+    50% { border-color: transparent;}
+}
+@keyframes typing {
+    from {width: 0;}
 }
