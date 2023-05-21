@@ -2,10 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap');
+
 * {
   font-family: "Jost", sans-serif;
 }
+.bg-image{
+    background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url('../src/assets/images/bg-plastic.jpg');
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    /* filter: brightness(75%); */
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 77% 95%, 55% 90%, 13% 100%, 0 97%);
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 77% 95%, 55% 90%, 13% 100%, 0 97%);
+}
 
+@media (max-width:420px) {
+    .bg-image{
+        background-position-y:-110px;
+    }
+}
 .navbar {
   transition: 0.4s right ease-in-out;
   transition-delay: 0.2s;
@@ -19,38 +36,4 @@
   100% {
     right: 0;
   }
-}
-
-.linear{
-    background: linear-gradient(rgba(94, 92, 92, 0.2), rgba(211, 205, 205, 0.3)), url('../src/assets/images/bg-plastic.jpg');
-    /* background-position:center; */
-    /* background-size:cover; */
-    /* background-attachment:fixed; */
-}
-
-
-@keyframes gradient {
-  0% {
-    background-position:0% 50%;
-  }
-  50% {
-    background-position:100% 50%;
-  }
-  100% {
-    background-position:0% 50%;
-  }
-}
-
-.type-anim{
-    white-space: nowrap;
-    border-right: 5px solid;
-    overflow:hidden ;
-    animation: typing 8s steps(44), cursor .5s infinite alternate;
-}
-
-@keyframes cursor {
-    50% { border-color: transparent;}
-}
-@keyframes typing {
-    from {width: 0;}
 }

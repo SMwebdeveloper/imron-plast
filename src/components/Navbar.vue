@@ -28,8 +28,8 @@
 
         <ul class="hidden lg:flex">
           <li
-            class="text-[16px] font-medium mr-7 last:mr-0 hover:text-[#4d4c4c] hover:underline transition-all  capitalize duration-200 delay-100"
-            :class="`${sidebarScroll ? 'text-[#072430]': 'text-white'}`"
+            class="text-[16px] font-medium mr-7 last:mr-0 hover:text-[#072430] hover:underline transition-all  capitalize duration-200 delay-100"
+            :class="`${sidebarScroll ? 'text-[#072430] hover:text-gray-400': 'text-white'}`"
             v-for="item in navigation"
             :key="item.title"
           >
