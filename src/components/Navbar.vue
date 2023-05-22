@@ -15,21 +15,37 @@
           class="flex items-center justify-between lg:w-auto md:w-full sm:w-full w-full"
         >
           <img
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-sine"
             src="@/assets/images/site-logo.svg"
             alt="site-logo"
             class="w-[120px] lg:w-[150px] h-[50px] object-cover ml-[-15px]"
           />
-          <div class="lg:hidden block">
-            <button class="text-3xl cursor-pointer" @click="toggleBtn">
-              <i class="fa-solid fa-bars"></i>
-            </button>
-          </div>
+
+          <button
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            class="lg:hidden block text-3xl cursor-pointer"
+            @click="toggleBtn"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
         </div>
 
-        <ul class="hidden lg:flex">
+        <ul
+          class="hidden lg:flex"
+          data-aos="fade-down"
+          data-aos-duration="1200"
+          data-aos-easing="ease-in-sine"
+        >
           <li
-            class="text-[16px] font-medium mr-7 last:mr-0 hover:text-[#072430] hover:underline transition-all  capitalize duration-200 delay-100"
-            :class="`${sidebarScroll ? 'text-[#072430] hover:text-gray-400': 'text-white'}`"
+            class="text-[16px] font-medium mr-7 last:mr-0 hover:text-[#072430] hover:underline transition-all capitalize duration-200 delay-100"
+            :class="`${
+              sidebarScroll
+                ? 'text-[#072430] hover:text-gray-400'
+                : 'text-white'
+            }`"
             v-for="item in navigation"
             :key="item.title"
           >
