@@ -14,14 +14,23 @@
         <div
           class="flex items-center justify-between lg:w-auto md:w-full sm:w-full w-full"
         >
-          <img
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-sine"
-            src="@/assets/images/site-logo.svg"
-            alt="site-logo"
-            class="w-[120px] lg:w-[150px] h-[50px] object-cover ml-[-15px]"
-          />
+          <div>
+            <img
+              v-if="!sidebarScroll"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-sine"
+              src="@/assets/images/site-logo-white.svg"
+              alt="site-logo"
+              class="w-[120px] lg:w-[150px] h-[50px] object-cover ml-[-15px]"
+            />
+            <img
+              v-else
+              src="@/assets/images/site-logo.svg"
+              alt="site-logo"
+              class="w-[120px] lg:w-[150px] h-[50px] object-cover ml-[-15px]"
+            />
+          </div>
 
           <button
             data-aos="fade-left"
