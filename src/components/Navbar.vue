@@ -7,7 +7,7 @@
         : ''
     }`"
   >
-    <div class="container mx-auto my-0 px-2">
+    <div class="container mx-auto px-3">
       <div
         class="relative flex w-full items-center justify-between flex-col lg:flex-row"
       >
@@ -22,13 +22,13 @@
               data-aos-easing="ease-in-sine"
               src="@/assets/images/site-logo-white.svg"
               alt="site-logo"
-              class="w-[120px] lg:w-[150px] h-[50px] object-cover ml-[-15px]"
+              class="w-[120px] md:w-[150px] h-[50px] object-cover ml-[-15px]"
             />
             <img
               v-else
               src="@/assets/images/site-logo.svg"
               alt="site-logo"
-              class="w-[120px] lg:w-[150px] h-[50px] object-cover ml-[-15px]"
+              class="w-[120px] md:w-[150px] h-[50px] object-cover ml-[-15px]"
             />
           </div>
 
@@ -38,7 +38,7 @@
             class="lg:hidden block text-3xl cursor-pointer"
             @click="toggleBtn"
           >
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" :class="{'text-white':!sidebarScroll}"></i>
           </button>
         </div>
 
