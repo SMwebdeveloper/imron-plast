@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-50 h-full bg-gradient-to-r from-[#f5f5f5] to-[#f8f8f8] overflow-x-hidden">
+  <div class="overflow-x-hidden">
     <Navbar/>
     <Hero/>
     <About/>

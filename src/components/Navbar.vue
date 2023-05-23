@@ -18,7 +18,7 @@
             <img
               v-if="!sidebarScroll"
               data-aos="fade-right"
-              data-aos-duration="1000"
+              data-aos-duration="500"
               data-aos-easing="ease-in-sine"
               src="@/assets/images/site-logo-white.svg"
               alt="site-logo"
@@ -26,6 +26,9 @@
             />
             <img
               v-else
+              data-aos="fade-right"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-sine"
               src="@/assets/images/site-logo.svg"
               alt="site-logo"
               class="w-[120px] md:w-[150px] h-[50px] object-cover ml-[-15px]"
@@ -34,7 +37,7 @@
 
           <button
             data-aos="fade-left"
-            data-aos-duration="1000"
+            data-aos-duration="400"
             class="lg:hidden block text-3xl cursor-pointer"
             @click="toggleBtn"
           >
@@ -44,8 +47,8 @@
 
         <ul
           class="hidden lg:flex"
-          data-aos="fade-down"
-          data-aos-duration="1200"
+          data-aos="fade-left"
+          data-aos-duration="400"
           data-aos-easing="ease-in-sine"
         >
           <li
