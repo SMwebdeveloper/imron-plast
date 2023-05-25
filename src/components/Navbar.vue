@@ -3,7 +3,7 @@
     class="mb-5 fixed top-0 left-0 w-screen z-10 duration-300"
     :class="`${
       sidebarScroll
-        ? 'bg-[rgba(255,255,255,0.8)] backdrop-blur-md shadow-md'
+        ? 'bg-[#173a3acc] backdrop-blur-md shadow-md'
         : ''
     }`"
   >
@@ -15,17 +15,8 @@
           class="flex items-center justify-between lg:w-auto md:w-full sm:w-full w-full"
         >
           <div>
+        
             <img
-              v-if="!sidebarScroll"
-              data-aos="fade-right"
-              data-aos-duration="500"
-              data-aos-easing="ease-in-sine"
-              src="@/assets/images/site-logo-white.svg"
-              alt="site-logo"
-              class="w-[120px] md:w-[150px] h-[50px] object-cover ml-[-15px]"
-            />
-            <img
-              v-else
               data-aos="fade-right"
               data-aos-duration="500"
               data-aos-easing="ease-in-sine"
@@ -41,7 +32,7 @@
             class="lg:hidden block text-3xl cursor-pointer"
             @click="toggleBtn"
           >
-            <i class="fa-solid fa-bars" :class="{'text-white':!sidebarScroll}"></i>
+            <i class="fa-solid fa-bars"></i>
           </button>
         </div>
 
@@ -52,12 +43,8 @@
           data-aos-easing="ease-in-sine"
         >
           <li
-            class="text-[16px] font-medium mr-7 last:mr-0 hover:text-[#072430] hover:underline transition-all capitalize duration-200 delay-100"
-            :class="`${
-              sidebarScroll
-                ? 'text-[#072430] hover:text-gray-400'
-                : 'text-white'
-            }`"
+            class="text-[16px] font-medium mr-7 last:mr-0 text-[#072430] hover:text-gray-400 hover:underline transition-all capitalize duration-200 delay-100"
+
             v-for="item in navigation"
             :key="item.title"
           >

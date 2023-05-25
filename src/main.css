@@ -2,31 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap");
 
 * {
   font-family: "Jost", sans-serif;
 }
-body{
-  background-color: #f9f9f9;
-/* background-image: linear-gradient(103deg, #f9f9f9f9 0%, #f7f7f7 100%); */
+body {
+  background-color: #f1f6f9;
+background-image: linear-gradient(62deg, #f1f6f9 0%, #e7f7f5 100%);
 
-}
-.bg-image{
-    background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url('../src/assets/images/bg-plastic.jpg');
-    background-attachment:fixed;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    /* filter: brightness(75%); */
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 77% 95%, 55% 90%, 13% 100%, 0 97%);
-    clip-path: polygon(0 0, 100% 0, 100% 88%, 77% 95%, 55% 90%, 13% 100%, 0 97%);
-}
-
-@media (max-width:420px) {
-    .bg-image{
-        background-position-y:-110px;
-    }
+  height: 100vh;
 }
 .navbar {
   transition: 0.4s right ease-in-out;
@@ -43,34 +28,6 @@ body{
   }
 }
 
-.animate-border{
-  animation: animate_blob 8s linear infinite;
-}
-
-@keyframes animate_blob {
-  0%, 100%{
-    border-radius: 45% 55% 70% 35% / 70% 30% 90% 40%;
-  }
-  25% {
-    border-radius: 55% 45% 30% 35% / 50% 30% 60% 10%;
-  }
-  50% {
-    border-radius: 65% 35% 35% 65% / 40% 60% 30% 70%;
-  }
-  25% {
-    border-radius: 35% 65% 60% 40% / 70% 30% 40% 10%;
-  }
-}
-
-.animate-img{
-  animation: bounce 3s infinite;
-
-}
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(-20px);
-  }
-  50% {
-    transform: translateY(0);
-  }
+.vue-typer .custom.char.typed {
+  color: #000;
 }
