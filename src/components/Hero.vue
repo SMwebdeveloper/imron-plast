@@ -1,35 +1,52 @@
 <template lang="">
-  <div class="bg-image h-[42vh] md:h-[80vh] lg:h-[90vh] xl:h-[100vh] w-full">
+  <div class="">
     <div class="container mx-auto px-3">
-      <div
-        class="flex flex-col items-center pt-[80px] sm:pt-[110px] md:pt-[120px] lg:pt-[150px] h-[50vh] md:h-[80vh] lg:h-[100vh]"
-      >
-        <h2
-          data-aos="fade-down"
-          data-aos-duration="700"
-          class="text-[40px] text-[#fff] sm:text-[60px] md:text-[70px] lg:text-[100px] xl:text-[150px] font-extrabold uppercase flex items-center mb-1"
-        >
-          Imron
-          <span
-            class="border-l-4 lg:border-l-8 border-[#0a3549] text-[#0a3549] text-[25px] md:text-[45px] lg:text-[60px] xl:text-[90px] flex items-start p-0 h-[30px] md:h-[50px] lg:h-[70px] xl:h-[105px] ml-2 lg:ml-4"
-            >Plast</span
-          >
-        </h2>
-        <h6
-          data-aos="fade-up"
-          data-aos-anchor="#example-anchor"
-          data-aos-duration="600"
-          class="text-[16px] md:text-[24px] lg:text-[28px] font-bold text-[#ccc] uppercase text-center tracking-wider w-[350px] md:w-[450px] lg:w-[650px]"
-        >
-          Выгода от честности всегда превышает выгоду.
-        </h6>
+      <div class="flex flex-col items-center pt-[80px] sm:pt-[110px] md:pt-[150px] h-[100vh]">
+        <div class="text-[32px] sm:text-[52px] md:text-[52px] lg:text-[65px] 2xl:text-[72px] text-center lg:w-[70%] text-[#084e5a] mx-auto font-bold mb-[50px] sm:mb-[60px] md:mb-[90px] lg:mb-[120px]">
+          <h2 class="m-0">Имрон Пласт:</h2>
+          <VueTyper
+            :text="[
+              'Качественная продукция',
+              'Быстрая доставка',
+            ]"
+            :repeat="Infinity"
+            :shuffle="false"
+            initial-action="typing"
+            :pre-type-delay="100"
+            :type-delay="100"
+            :pre-erase-delay="2000"
+            :erase-delay="100"
+            erase-style="backspace"
+            :erase-on-complete="false"
+            caret-animation="solid"
+          ></VueTyper>
+        </div>
+
+        <div class="text-center">
+          <p class="text-[14px] md:text-[16px] lg:text-[20px] text-[#2197a7] font-medium mb-2">Выгода от честности всегда превышает выгоду.</p>
+          <button class="border-[#1a8d9c] text-[#1a8d9c] fonst-medium border-solid border-[1px] py-2 px-6 rounded-lg duration-300 hover:border-white hover:bg-[#1a8d9c] hover:text-white">Вперед</button>
+        </div>
       </div>
     </div>
   </div>
 </template>
 <script>
+import { VueTyper } from "vue-typer";
 export default {
   name: "HeroComponent",
+  components: {
+    VueTyper,
+  },
+  data() {
+    return {
+      lab: 2,
+    };
+  },
+  watch: {
+    lab: function () {
+      console.log(3);
+    },
+  },
 };
 </script>
 <style lang=""></style>
