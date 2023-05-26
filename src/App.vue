@@ -3,7 +3,7 @@
     <Navbar/>
      <Hero/>
    <!-- <About/> -->
-    <!-- <Products/> -->
+    <Products/>
     <!-- <Partners/> -->
     <!-- <Delivery/> -->
     <!-- <Location/> -->
@@ -15,7 +15,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero.vue';
 // import About from './components/About.vue';
-// import Products from './components/Products.vue';
+import Products from './components/Products.vue';
 // import Partners from './components/Partners.vue';
 // import Delivery from './components/Delivery.vue';
 // import Location from './components/Location.vue';
@@ -25,9 +25,9 @@ export default {
   name: 'App',
   components: {
     Navbar,
-    Hero
+    Hero,
     // About,
-    // Products,
+    Products,
     // Partners,
     // Delivery,
     // Location,

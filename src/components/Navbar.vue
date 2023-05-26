@@ -16,11 +16,21 @@
         >
           <div>
         
-            <img
+            <img 
+            v-if="!sidebarScroll"
               data-aos="fade-right"
               data-aos-duration="500"
               data-aos-easing="ease-in-sine"
               src="@/assets/images/site-logo.svg"
+              alt="site-logo"
+              class="w-[120px] md:w-[150px] h-[50px] object-cover ml-[-15px]"
+            />
+            <img
+              v-else
+              data-aos="fade-right"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-sine"
+              src="@/assets/images/site-logo-white.svg"
               alt="site-logo"
               class="w-[120px] md:w-[150px] h-[50px] object-cover ml-[-15px]"
             />
@@ -32,7 +42,7 @@
             class="lg:hidden block text-3xl cursor-pointer"
             @click="toggleBtn"
           >
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" :class="{'text-white':sidebarScroll}"></i>
           </button>
         </div>
 
@@ -44,7 +54,7 @@
         >
           <li
             class="text-[16px] font-medium mr-7 last:mr-0 text-[#072430] hover:text-gray-400 hover:underline transition-all capitalize duration-200 delay-100"
-
+            :class="{'text-white':sidebarScroll}"
             v-for="item in navigation"
             :key="item.title"
           >
