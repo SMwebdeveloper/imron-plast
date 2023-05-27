@@ -1,8 +1,8 @@
 <template lang="">
-  <div class="">
-    <div class="container mx-auto px-3">
-      <div class="flex flex-col items-center pt-[80px] sm:pt-[110px] md:pt-[150px] h-[100vh]">
-        <div class="text-[28px] sm:text-[52px] md:text-[52px] lg:text-[65px] 2xl:text-[72px] text-center lg:w-[70%] text-[#084e5a] mx-auto font-bold mb-[50px] sm:mb-[60px] md:mb-[90px] lg:mb-[120px]">
+  <div class="bg-white">
+    <div class="container mx-auto px-3 md:px-0">
+      <div class="flex flex-col items-center pt-[60px] sm:pt-[60px] md:pt-[120px] h-[40vh] sm:h-[50vh] md:h-[70vh] lg:h-[100vh]">
+        <div class="text-[28px] md:text-[48px] lg:text-[65px] 2xl:text-[72px] text-center lg:w-[70%] text-blue-400 mx-auto font-bold mb-[40px] lg:mb-[120px]">
           <h2 class="m-0">Имрон Пласт:</h2>
           <VueTyper
             :text="[
@@ -24,8 +24,8 @@
         </div>
 
         <div class="text-center">
-          <p class="text-[14px] md:text-[16px] lg:text-[20px] text-[#2197a7] w-[350px] md:w-[450px] lg:w-[650px] font-medium mb-2">У нас есть цель: помочь нашим партнерам быть более успешными. Это то, над чем мы эффективно работаем каждый день.</p>
-          <button class="border-[#1a8d9c] text-[#1a8d9c] fonst-medium border-solid border-[1px] py-2 px-6 rounded-lg duration-300 hover:border-white hover:bg-[#1a8d9c] hover:text-white">Вперед</button>
+          <p class="text-[14px] md:text-[16px] lg:text-[20px] text-[#060606] w-[350px] md:w-[450px] lg:w-[650px] font-normal mb-2">У нас есть цель: помочь нашим партнерам быть более успешными. Это то, над чем мы эффективно работаем каждый день.</p>
+          <button class="border-blue-400 text-blue-400 fonst-medium border-solid border-[1px] py-2 px-6 rounded-lg duration-300 hover:border-white hover:bg-blue-400 hover:text-white">Вперед</button>
         </div>
       </div>
     </div>
