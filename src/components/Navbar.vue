@@ -1,36 +1,19 @@
 <template>
   <div
-    class="mb-5 fixed top-0 left-0 w-screen z-10 duration-300"
-    :class="`${
-      sidebarScroll
-        ? 'bg-[#173a3acc] backdrop-blur-md shadow-md'
-        : ''
-    }`"
+    class="mb-5 fixed top-0 left-0 w-full z-10 duration-300"
+    :class="`${sidebarScroll ? 'bg-[rgba(255,255,225,0.5)] backdrop-blur-md shadow-md' : ''}`"
   >
-    <div class="container mx-auto px-3">
+    <div class="container mx-auto px-3 md:px-0">
       <div
-        class="relative flex w-full items-center justify-between flex-col lg:flex-row"
+        class="relative flex w-full items-center justify-between"
       >
-        <div
-          class="flex items-center justify-between lg:w-auto md:w-full sm:w-full w-full"
-        >
+        <div class="flex items-center justify-between w-full lg:w-[50%]">
           <div>
-        
-            <img 
-            v-if="!sidebarScroll"
+            <img
               data-aos="fade-right"
               data-aos-duration="500"
               data-aos-easing="ease-in-sine"
               src="@/assets/images/site-logo.svg"
-              alt="site-logo"
-              class="w-[120px] md:w-[150px] h-[50px] object-cover ml-[-15px]"
-            />
-            <img
-              v-else
-              data-aos="fade-right"
-              data-aos-duration="500"
-              data-aos-easing="ease-in-sine"
-              src="@/assets/images/site-logo-white.svg"
               alt="site-logo"
               class="w-[120px] md:w-[150px] h-[50px] object-cover ml-[-15px]"
             />
@@ -42,7 +25,7 @@
             class="lg:hidden block text-3xl cursor-pointer"
             @click="toggleBtn"
           >
-            <i class="fa-solid fa-bars" :class="{'text-white':sidebarScroll}"></i>
+            <i class="fa-solid fa-bars"></i>
           </button>
         </div>
 
@@ -53,8 +36,7 @@
           data-aos-easing="ease-in-sine"
         >
           <li
-            class="text-[16px] font-medium mr-7 last:mr-0 text-[#072430] hover:text-gray-400 hover:underline transition-all capitalize duration-200 delay-100"
-            :class="{'text-white':sidebarScroll}"
+            class="text-[16px] font-medium mr-7 last:mr-0 text-[#072430] hover:text-blue-400 transition-all capitalize duration-200 delay-100"
             v-for="item in navigation"
             :key="item.title"
           >
