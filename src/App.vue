@@ -3,9 +3,10 @@
     <Navbar />
     <Hero />
     <About />
+    <Choose/>
     <Products />
-    <!-- <Partners/> -->
-    <!-- <Delivery/> -->
+    <ProductCarousel/>
+    <Partners/>
     <!-- <Location/> -->
     <!-- <Footer/> -->
   </div>
@@ -15,9 +16,10 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero.vue";
 import About from "./components/About.vue";
+import Choose from "./components/Choose.vue";
 import Products from "./components/Products.vue";
-// import Partners from './components/Partners.vue';
-// import Delivery from './components/Delivery.vue';
+import ProductCarousel from "./components/ProductCarousel.vue";
+import Partners from './components/Partners.vue';
 // import Location from './components/Location.vue';
 // import Footer from './components/Footer.vue';
 
@@ -27,9 +29,10 @@ export default {
     Navbar,
     Hero,
     About,
+    Choose,
     Products,
-    // Partners,
-    // Delivery,
+    ProductCarousel,
+    Partners
     // Location,
     // Footer
   },
