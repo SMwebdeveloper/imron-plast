@@ -1,7 +1,7 @@
 <template>
   <div
     class="mb-5 fixed top-0 left-0 w-full z-10 duration-300"
-    :class="`${sidebarScroll ? 'bg-[rgba(255,255,225,0.5)] backdrop-blur-md shadow-md' : ''}`"
+    :class="`${sidebarScroll ? 'bg-[rgba(255,255,255,0.5)] backdrop-blur-md shadow-md' : ''}`"
   >
     <div class="container mx-auto px-3 md:px-0">
       <div
