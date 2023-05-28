@@ -1,5 +1,5 @@
 <template lang="">
-  <div id="about" class="pt-16">
+  <div id="about" class="pt-16 mb-6">
     <div class="container mx-auto px-3 md:px-0">
       <div>
         <h2
@@ -17,12 +17,12 @@
         class="flex flex-col-reverse md:flex-row items-start text-xs sm:text-sm md:text-base text-justify"
       >
         <img
-          class="hidden w-full md:block md:w-[40%] md:h-[320px] rounded-2xl shadow-xl object-cover mr-8"
+          class="hidden w-full md:block md:w-[40%] md:h-[300px] lg:h-[320px] rounded-lg shadow-xl object-cover mr-8"
           src="../assets/images/about-us-4.jpg"
           alt="about image"
         />
-        <div class="bg-white py-5 px-6 md:w-[60%] h-auto lg:h-[320px] mb-3 text-sm md:text-md lg:text-lg rounded-md shadow-lg">
-          <p class="mb-4">
+        <div class="bg-white py-4 px-6 md:w-[60%] h-auto md:h-[300px] lg:h-[320px] mb-3 text-sm md:text-md lg:text-lg xl:text-xl rounded-lg shadow-lg">
+          <p class="mb-2">
             Компания IMRON Plast начала свою деятельность во второй половине 2008 года. На протяжении многих лет она предоставляет качественную и доступную продукцию и лояльное обслуживание большому количеству клиентов. По этим причинам мы много лет тестировали и совершенствовали свою продукцию и расширились в больших масштабах.
           </p>
           <p>
