@@ -1,7 +1,7 @@
 <template lang="">
   <div class="pt-16" id="partners">
     <div class="container mx-auto md:px-0 px-3 text-center">
-      <h2 class="text-[24px] md:text-[28px] lg:text-[32px] text-[#277cad] font-semibold mb-3 lg:mb-8">Партнеры</h2>
+      <h2 class="text-[24px] md:text-[28px] lg:text-[32px] text-blue-400 font-semibold mb-3 lg:mb-8">Партнеры</h2>
       <div class="hidden lg:flex items-center justify-between">
         <img
           v-for="item in partners"
