@@ -1,12 +1,12 @@
 <template>
-  <div class="overflow-x-hidden bg-imron-img bg-no-repeat bg-cover bg-center">
+  <div class="overflow-x-hidden  bg-[#f6f6f6]">
     <Navbar />
     <Hero />
     <About />
     <Choose/>
+    <Partners/>
     <Products />
     <ProductCarousel/>
-    <Partners/>
     <!-- <Location/> -->
     <!-- <Footer/> -->
   </div>
