@@ -1,5 +1,5 @@
 <template>
-  <div class="overflow-x-hidden">
+  <div class="overflow-x-hidden bg-imron-img bg-no-repeat bg-cover bg-center">
     <Navbar />
     <Hero />
     <About />
