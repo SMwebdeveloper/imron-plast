@@ -4,14 +4,14 @@
       <div
         class="flex flex-col items-center justify-center  w-full"
       >
-        <div class="lg:text-center">
+        <div class="text-center">
           <h3
-            class="text-[18px] md:text-[24px] lg:text-[38px] font-semibold text-blue-500 mb-1 md:mb-2 lg:mb-3"
+            class="text-[18px] md:text-[24px] lg:text-[38px] font-semibold text-blue-400 mb-1 md:mb-2 lg:mb-3"
           >
             Пакеты с вашим логотипом
           </h3>
           <h6
-            class="text-[12px] md:text-[14px] lg:text-[18px] lg:w-[500px] font-bold text-gray-400"
+            class="text-[12px] md:text-[16px] lg:text-[20px] lg:w-[500px] font-medium text-slate-400"
           >
             Наши продукты с вашим логотипом для продвижения вашего бизнеса
           </h6>
