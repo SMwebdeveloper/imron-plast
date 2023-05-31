@@ -5,8 +5,12 @@
             <h2 class="text-[20px] md:text-[28px] lg:text-[36px] text-[#4f83a7] font-semibold mb-3">Каталог</h2>
             <div class="flex flex-wrap gap-5 justify-center items-center  mb-8">
                 <ProductItems v-for="product in products" :key="product.title" :product="product"/>
+                <ProductItems  v-for="product in productsSecond" :key="product.title" v-show="more" :product="product"/>
             </div>
-            <button  class="mx-auto py-3 px-8 text-[18px] text-center text-blue-500 border-blue-500 border-solid border-[1px] hover:bg-blue-500 hover:text-white duration-300 rounded-xl mb-10">Более</button>
+            <button @click="more = !more"  class="mx-auto py-3 px-8 text-[18px] text-center text-blue-500 border-blue-500 border-solid border-[1px] hover:bg-blue-500 hover:text-white duration-300 rounded-xl mb-10">
+              <p v-if="!more">Более</p>
+              <p v-else>Меньше</p>
+            </button>
            <div>
            </div>
         </div>
@@ -24,6 +28,8 @@ export default {
   data () {
     return {
         products: data.products,
+        productsSecond: data.secondProducts,
+        more: false
     }
   }
 }
