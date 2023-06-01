@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="h-[40vh] sm:h-[70v] lg:h-[100vh] bg-imron-img bg-no-repeat bg-cover bg-top">
+  <div class="h-[45vh] sm:h-[70v] lg:h-[100vh] bg-imron-img bg-no-repeat bg-cover bg-top">
     <div class="container mx-auto px-3 lg:px-0">
       <div class="flex flex-col items-center pt-[60px] sm:pt-[60px] md:pt-[120px] 2xl:pt-[200px]">
         <div class="text-[26px] md:text-[48px] lg:text-[65px] 2xl:text-[80px] text-center lg:w-[70%] text-blue-400 mx-auto font-bold mb-[40px] lg:mb-[150px] 2xl:mb-[250px]">
