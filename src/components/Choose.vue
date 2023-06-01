@@ -1,12 +1,12 @@
 <template lang="">
   <div class="bg-white py-5">
     <div class="container mx-auto px-3 md:px-0 text-center">
-      <h2
+      <h2 data-aos="zoom-in-down" data-aos-duration="800"
         class="text-[22px] sm:text-[24px] md:text-[30px] lg:text-[34px] text-blue-400 mb-2"
       >
         Почему выбрали нас
       </h2>
-      <p
+      <p data-aos="zoom-in-up" data-aos-duration="800"
         class="w-[90%] sm:w-[80%] md:w-[70%] lg:w-[60%] text-sm md:text-base lg:text-lg text-slate-500 mx-auto mb-6"
       >
         Спасибо, что считаете нас партнером. Мы верим, что наш опыт, наши навыки
@@ -16,7 +16,7 @@
       <div
         class="flex flex-wrap gap-2 md:gap-3 lg:gap-5 items-center justify-between w-full"
       >
-        <div
+        <div data-aos="zoom-out-right" data-aos-duration="1200"
           class="w-full h-[135px] lg:w-[49%] text-left bg-gray-200 rounded-md p-3 shadow-xl mb-4 lg:mb-0"
         >
           <i class="fa-solid fa-briefcase bg-sky-300 text-gray-50 text-xs md:text-base  px-[6px] md:px-3 py-1 md:py-2 rounded-full mb-2 md:mb-1 lg:m-0"></i>
@@ -28,7 +28,7 @@
             только специалисты, и это стало традицией нашей компании.
           </p>
         </div>
-        <div
+        <div data-aos="zoom-out-left" data-aos-duration="1200"
           class="w-full h-[150px] md:h-[135px] lg:w-[49%] text-left bg-gray-200 rounded-md p-3 shadow-xl mb-4 lg:mb-0"
         >
           <i class="fa-solid fa-truck-ramp-box bg-sky-300 text-gray-50 text-[11px] md:text-sm  px-[6px] md:px-[10px] py-[7px] md:py-2 rounded-full mb-2 md:mb-1 lg:m-0"></i>
@@ -41,7 +41,7 @@
             продукцию куда угодно.
           </p>
         </div>
-        <div
+        <div data-aos="zoom-out-right" data-aos-duration="1200"
           class="w-full h-[135px] lg:w-[49%] text-left bg-gray-200 rounded-md p-3 shadow-xl mb-4 lg:mb-0"
         >
           <i class="fa-solid fa-message bg-sky-300 text-gray-50 text-[10px] md:text-base  px-[7px] md:px-3 py-2 md:py-2 rounded-full mb-2 md:mb-1 lg:m-0"></i>
@@ -53,7 +53,7 @@
             значение для успеха любого проекта.
           </p>
         </div>
-        <div
+        <div data-aos="zoom-out-left" data-aos-duration="1200"
           class="w-full h-[150px] md:h-[135px] lg:w-[49%] text-left bg-gray-200 rounded-md p-3 shadow-xl mb-4 lg:mb-0"
         >
           <i class="fa-solid fa-square-check bg-sky-300 text-gray-50 text-xs md:text-base  px-[6px] md:px-3 py-1 md:py-2 rounded-full mb-2 md:mb-1 lg:m-0"></i>

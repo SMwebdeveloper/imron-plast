@@ -5,7 +5,7 @@
     >
       <h5 class="m-0">Наш адрес:</h5>
       <h3
-        class="font-bold text-red-600 text-[20px] md:text-[22px] lg:text-[24px] m-0"
+        class="font-bold text-sky-400 text-[20px] md:text-[22px] lg:text-[24px] m-0"
         >г. Фаргона улица Авиасозлар 2/2
       </h3>
     </div>

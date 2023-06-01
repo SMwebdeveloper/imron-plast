@@ -1,32 +1,42 @@
 <template lang="">
   <div class="bg-white mb-9 py-5 px-6 lg:px-14">
     <div class="container mx-auto px-3 md:px-0">
-      <div
-        class="flex flex-col items-center justify-center  w-full"
-      >
+      <div class="flex flex-col items-center justify-center w-full">
         <div class="text-center">
           <h3
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="1000"
             class="text-[18px] md:text-[24px] lg:text-[38px] font-semibold text-blue-400 mb-1 md:mb-2 lg:mb-3"
           >
             Пакеты с вашим логотипом
           </h3>
           <h6
+            data-aos="fade-left"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="1000"
             class="text-[12px] md:text-[16px] lg:text-[20px] lg:w-[500px] font-medium text-slate-400 mb-1 md:mb-3"
           >
             Наши продукты с вашим логотипом для продвижения вашего бизнеса
           </h6>
         </div>
-        <infinite-slide-bar duration="25s" delay="2s">
-        <div class="flex justify-around items-center">
-          <div v-for="item in slide" :key="item.id">
-            <img
-              :src="getPic(item.img)"
-              alt="brand logo"
-              class=" w-[150px] h-[200px] md:w-[300px] md:h-[350px] object-contain mb-0 mx-auto my-auto"
-            />
+        <infinite-slide-bar
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="2000"
+          duration="25s"
+          delay="2s"
+        >
+          <div class="flex justify-around items-center">
+            <div v-for="item in slide" :key="item.id">
+              <img
+                :src="getPic(item.img)"
+                alt="brand logo"
+                class="w-[150px] h-[200px] md:w-[300px] md:h-[350px] object-contain mb-0 mx-auto my-auto"
+              />
+            </div>
           </div>
-        </div>
-      </infinite-slide-bar>
+        </infinite-slide-bar>
       </div>
     </div>
   </div>
@@ -36,7 +46,7 @@ import InfiniteSlideBar from "vue-infinite-slide-bar";
 export default {
   name: "ProductCarousel",
   components: {
-    InfiniteSlideBar
+    InfiniteSlideBar,
   },
   data() {
     return {
