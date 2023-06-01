@@ -7,8 +7,8 @@
     <Partners/>
     <Products />
     <ProductCarousel/>
-    <!-- <Location/> -->
-    <!-- <Footer/> -->
+    <Location/>
+    <Footer/>
   </div>
 </template>
 
@@ -20,8 +20,8 @@ import Choose from "./components/Choose.vue";
 import Products from "./components/Products.vue";
 import ProductCarousel from "./components/ProductCarousel.vue";
 import Partners from './components/Partners.vue';
-// import Location from './components/Location.vue';
-// import Footer from './components/Footer.vue';
+import Location from './components/Location.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   name: "App",
@@ -32,9 +32,9 @@ export default {
     Choose,
     Products,
     ProductCarousel,
-    Partners
-    // Location,
-    // Footer
+    Partners,
+    Location,
+    Footer
   },
 };
 </script>
