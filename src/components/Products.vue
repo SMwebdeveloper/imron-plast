@@ -9,7 +9,7 @@
             </div>
             <button @click="more = !more"  class="mx-auto py-3 px-8 text-[18px] text-center text-blue-500 border-blue-500 border-solid border-[1px] hover:bg-blue-500 hover:text-white duration-300 rounded-xl mb-10">
               <p v-if="!more">Более</p>
-              <p v-else>Меньше</p>
+              <p v-if="more">Меньше</p>
             </button>
            <div>
            </div>

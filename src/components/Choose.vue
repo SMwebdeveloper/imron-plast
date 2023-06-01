@@ -19,8 +19,8 @@
         <div
           class="w-full h-[135px] lg:w-[49%] text-left bg-gray-200 rounded-md p-3 shadow-xl mb-4 lg:mb-0"
         >
-          <i class="fa-solid fa-briefcase bg-sky-300 text-gray-50 text-xs md:text-base  px-[6px] md:px-3 py-1 md:py-2 rounded-full"></i>
-          <h4 class="text-base md:text-lg font-medium text-sky-600">
+          <i class="fa-solid fa-briefcase bg-sky-300 text-gray-50 text-xs md:text-base  px-[6px] md:px-3 py-1 md:py-2 rounded-full mb-2 md:mb-1 lg:m-0"></i>
+          <h4 class="text-base md:text-lg font-medium text-sky-600 mb-2 md:mb-1 lg:m-0">
             Специалист
           </h4>
           <p class="text-xs sm:text-sm font-medium md:text-md text-slate-700">
@@ -31,8 +31,8 @@
         <div
           class="w-full h-[150px] md:h-[135px] lg:w-[49%] text-left bg-gray-200 rounded-md p-3 shadow-xl mb-4 lg:mb-0"
         >
-          <i class="fa-solid fa-truck-ramp-box bg-sky-300 text-gray-50 text-[11px] md:text-sm  px-[6px] md:px-[10px] py-[7px] md:py-2 rounded-full"></i>
-          <h4 class="text-base md:text-lg font-medium text-sky-600">
+          <i class="fa-solid fa-truck-ramp-box bg-sky-300 text-gray-50 text-[11px] md:text-sm  px-[6px] md:px-[10px] py-[7px] md:py-2 rounded-full mb-2 md:mb-1 lg:m-0"></i>
+          <h4 class="text-base md:text-lg font-medium text-sky-600 mb-2 md:mb-1 lg:m-0">
             Доставка
           </h4>
           <p class="text-xs sm:text-sm font-medium md:text-md text-slate-700">
@@ -44,8 +44,8 @@
         <div
           class="w-full h-[135px] lg:w-[49%] text-left bg-gray-200 rounded-md p-3 shadow-xl mb-4 lg:mb-0"
         >
-          <i class="fa-solid fa-message bg-sky-300 text-gray-50 text-[10px] md:text-base  px-[7px] md:px-3 py-2 md:py-2 rounded-full"></i>
-          <h4 class="text-base md:text-lg font-medium text-sky-600">
+          <i class="fa-solid fa-message bg-sky-300 text-gray-50 text-[10px] md:text-base  px-[7px] md:px-3 py-2 md:py-2 rounded-full mb-2 md:mb-1 lg:m-0"></i>
+          <h4 class="text-base md:text-lg font-medium text-sky-600 mb-2 md:mb-1 lg:m-0">
             Коммуникация
           </h4>
           <p class="text-xs sm:text-sm font-medium md:text-md text-slate-700">
@@ -56,8 +56,8 @@
         <div
           class="w-full h-[150px] md:h-[135px] lg:w-[49%] text-left bg-gray-200 rounded-md p-3 shadow-xl mb-4 lg:mb-0"
         >
-          <i class="fa-solid fa-square-check bg-sky-300 text-gray-50 text-xs md:text-base  px-[6px] md:px-3 py-1 md:py-2 rounded-full"></i>
-          <h4 class="text-base md:text-lg font-medium text-sky-600">
+          <i class="fa-solid fa-square-check bg-sky-300 text-gray-50 text-xs md:text-base  px-[6px] md:px-3 py-1 md:py-2 rounded-full mb-2 md:mb-1 lg:m-0"></i>
+          <h4 class="text-base md:text-lg font-medium text-sky-600 mb-2 md:mb-1 lg:m-0">
             Внимание к детали
           </h4>
           <p class="text-xs sm:text-sm font-medium md:text-md text-slate-700 text-justify">
