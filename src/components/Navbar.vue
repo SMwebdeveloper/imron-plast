@@ -82,16 +82,12 @@ export default {
           href: "#about",
         },
         {
-          title: "Каталог",
-          href: "#products",
-        },
-        {
           title: "Партнеры",
           href: "#partners",
         },
         {
-          title: "Доставка",
-          href: "#delivery",
+          title: "Каталог",
+          href: "#products",
         },
         {
           title: "адрес",
