@@ -8,7 +8,7 @@
       >
         <div
           data-aos="fade-down"
-          data-aos-duration="500"
+          data-aos-duration="1000"
           class="text-[26px] md:text-[48px] lg:text-[65px] 2xl:text-[80px] text-center lg:w-[70%] text-blue-400 mx-auto font-bold"
         >
           <h2 class="m-0">Имрон Пласт:</h2>
@@ -30,7 +30,7 @@
             caret-animation="solid"
           ></VueTyper>
         </div>
-        <div data-aos="fade-up" data-aos-duration="500" class="text-center">
+        <div data-aos="fade-up" data-aos-duration="1000" class="text-center">
           <p
             class="text-md sm:text-lg md:text-xl lg:text-2xl 2xl:text-[26px] text-blue-400 w-[320px] md:w-[450px] lg:w-[650px] font-normal mb-4 2xl:mb-8"
           >
