@@ -1,24 +1,24 @@
 <template lang="">
   <div class="mb-7 lg:mb-0 flex flex-col items-center lg:items-start">
     <div
-      class="text-[18px] lg:text-left md:text-[20px] lg:text-[22px] font-semibold text-[#2e696b] mb-3 md:mb-5 flex flex-col items-center justify-center lg:items-start"
+      class="text-[18px] lg:text-left md:text-[20px] lg:text-[22px] font-semibold text-blue-400 mb-3 md:mb-5 flex flex-col items-center justify-center lg:items-start"
     >
       <h5 class="m-0">Наш адрес:</h5>
       <h3
-        class="font-bold text-[#880f0f] text-[20px] md:text-[22px] lg:text-[24px] m-0"
+        class="font-bold text-red-600 text-[20px] md:text-[22px] lg:text-[24px] m-0"
         >г. Фаргона улица Авиасозлар 2/2
       </h3>
     </div>
     <div class="mb-3 md:mb-5">
-        <h5 class="text-[18px] lg:text-left md:text-[20px] lg:text-[22px] font-semibold text-[#2e696b] mb-2">Номера для связи с нами:</h5>
+        <h5 class="text-[18px] lg:text-left md:text-[20px] lg:text-[22px] font-semibold text-blue-400 mb-2">Номера для связи с нами:</h5>
         <ul class="text-center lg:text-left">
-            <li class="text-[12px] md:text-[14px] lg:text-[16px] font-semibold text-[#214f52]">+998-97-555-79-33</li>
-            <li class="text-[12px] md:text-[14px] lg:text-[16px] font-semibold text-[#214f52]">+998-97-271-46-48</li>
+            <li class="text-[12px] md:text-[14px] lg:text-[16px] font-semibold text-sky-400">+998-97-555-79-33</li>
+            <li class="text-[12px] md:text-[14px] lg:text-[16px] font-semibold text-sky-400">+998-97-271-46-48</li>
         </ul>
     </div>
     <div>
       <h5
-        class="text-[18px] lg:text-left w-[300px] md:w-[400px] lg:w-[500px] md:text-[20px] lg:text-[22px] font-semibold text-[#2e696b] mb-3"
+        class="text-[18px] lg:text-left w-[300px] md:w-[400px] lg:w-[500px] md:text-[20px] lg:text-[22px] font-semibold text-blue-400 mb-3"
       >
         Наш профиль в социальных сетях:
       </h5>
