@@ -2,7 +2,7 @@
     <div id="products" class="mb-5 lg:mb-16 pt-16">
       <div class="container mx-auto px-3 md:px-0">
         <div class="text-center">
-            <h2 class="text-[20px] md:text-[28px] lg:text-[36px] text-[#4f83a7] font-semibold mb-3">Каталог</h2>
+            <h2 class="text-[20px] md:text-[28px] lg:text-[36px] text-blue-400 font-semibold mb-3">Каталог</h2>
             <div class="flex flex-wrap gap-5 justify-center items-center  mb-8">
                 <ProductItems v-for="product in products" :key="product.title" :product="product"/>
                 <ProductItems  v-for="product in productsSecond" :key="product.title" v-show="more" :product="product"/>
