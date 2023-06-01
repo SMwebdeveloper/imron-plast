@@ -11,50 +11,36 @@
             Пакеты с вашим логотипом
           </h3>
           <h6
-            class="text-[12px] md:text-[16px] lg:text-[20px] lg:w-[500px] font-medium text-slate-400"
+            class="text-[12px] md:text-[16px] lg:text-[20px] lg:w-[500px] font-medium text-slate-400 mb-1 md:mb-3"
           >
             Наши продукты с вашим логотипом для продвижения вашего бизнеса
           </h6>
         </div>
-        <div class="max-w-[550px]">
-          <carousel
-            :perPage="2"
-            paginationEnable="true"
-            paginationColor="#b3b3b3"
-            paginationActiveColor="#494ce8"
-          >
-            <slide v-for="(item, index) in slide" :key="index">
-              <img
-                :src="getPic(item.img)"
-                alt="bag logo"
-                class="w-[270px] sm:w-[400px] md:w-[450px] h-[250px] lg:w-[500px] object-contain mb-0 mx-auto my-auto"
-              />
-            </slide>
-          </carousel>
+        <infinite-slide-bar duration="25s" delay="2s">
+        <div class="flex justify-around items-center">
+          <div v-for="item in slide" :key="item.id">
+            <img
+              :src="getPic(item.img)"
+              alt="brand logo"
+              class=" w-[150px] h-[200px] md:w-[300px] md:h-[350px] object-contain mb-0 mx-auto my-auto"
+            />
+          </div>
         </div>
+      </infinite-slide-bar>
       </div>
     </div>
   </div>
 </template>
 <script>
-import { Carousel, Slide } from "vue-carousel";
+import InfiniteSlideBar from "vue-infinite-slide-bar";
 export default {
   name: "ProductCarousel",
   components: {
-    Carousel,
-    Slide,
+    InfiniteSlideBar
   },
   data() {
     return {
       slide: [
-        {
-          id: "1",
-          img: "bag-logo-1",
-        },
-        {
-          id: "2",
-          img: "bag-logo-3",
-        },
         {
           id: "4",
           img: "bag-logo-5",

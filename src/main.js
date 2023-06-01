@@ -1,11 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
-import VueCarousel from 'vue-carousel'
+import InfiniteSlideBar from 'vue-infinite-slide-bar'
 import './main.css'
+
 
 import AOS from 'aos'
 Vue.config.productionTip = false
-Vue.use(VueCarousel)
+Vue.component('InfiniteSlideBar', InfiniteSlideBar)
 
 new Vue({
   created(){

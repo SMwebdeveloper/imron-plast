@@ -20,7 +20,7 @@
       <i class="fa-solid fa-bag-shopping text-md md:text-base lg:text-lg text-blue-500"></i>
     </div>
     <h5
-      class="text-[18px] md:text-[14px] text-blue-400 font-medium lg:text-[16px] max-w-[200px] md:max-w-[200px] text-center"
+      class="text-[18px] md:text-[14px] text-blue-400 font-medium lg:text-[16px] max-w-[250px] text-center"
     >
       {{ product.title }}
     </h5>
